@@ -1,0 +1,47 @@
+.pomodoro-wrapper {
+    width: 500px;
+    margin: 100px auto;
+  
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 2px 4px #b39e9e;
+}
+
+.output {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.button-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+button {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    gap: 20px;
+    border: 5px;
+    color: #fff;
+}
+
+button.start{
+    background-color: #459a2e;
+}
+button.stop{
+    background-color: #cf0808;
+   
+}
+button.reset{
+    background-color: #808080;
+}
+button:hover {
+    transform: scale(1.05);
+    outline: 1px solid black;
+}
